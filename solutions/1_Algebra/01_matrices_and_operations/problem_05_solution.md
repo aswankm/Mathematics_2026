@@ -1,45 +1,37 @@
-Linear Algebra Exercises
+"""
+Exercise 5: Matrix Times Vector and Linear Combination
+Description: Computes matrix-vector multiplication and demonstrates 
+that it can be viewed as a linear combination of the matrix columns.
+"""
 
-Exercise 5: Matrix Times Vector
+import numpy as np
 
-Problem Statement
+def solve_exercise_5():
+    # Define matrix A and vector x
+    A = np.array([[2, -1], 
+                  [1, 3]])
+    
+    x = np.array([4, 
+                  2])
 
-Let
+    # 1. Compute Ax
+    Ax = np.dot(A, x)
+    print("Computed Ax:")
+    print(Ax)
 
-$$
-A = \begin{pmatrix}
-2 & -1 \
-1 & 3
-\end{pmatrix},
-\qquad
-x = \begin{pmatrix}
-4 \
-2
-\end{pmatrix}
-$$
+    # 2. Extract columns of A
+    c1 = A[:, 0]
+    c2 = A[:, 1]
 
-Compute (Ax). Then express (Ax) as a linear combination of the columns of (A), with coefficients taken from the vector (x).
+    # 3. Express Ax as a linear combination of columns using coefficients from x
+    linear_combination = x[0] * c1 + x[1] * c2
+    print("\nLinear Combination (x[0]*c1 + x[1]*c2):")
+    print(linear_combination)
 
-Solution
+    # Verification
+    assert np.allclose(Ax, linear_combination), "Results do not match!"
+    print("\nVerification successful: Ax is equivalent to the linear combination of the columns of A.")
 
-1. Compute the matrix-vector product
-
-$$
-Ax =
-\begin{pmatrix}
-2 & -1 \
-1 & 3
-\end{pmatrix}
-\begin{pmatrix}
-4 \
-2
-\end{pmatrix}
-$$
-
-$$
-Ax =
-\begin{pmatrix}
-2(4) + (-1)(2) \
-1(4) + 3(2)
-\end{pmatrix}
-
+if __name__ == "__main__":
+    solve_exercise_5()
+    
