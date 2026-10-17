@@ -1,37 +1,16 @@
-"""
-Exercise 5: Matrix Times Vector and Linear Combination
-Description: Computes matrix-vector multiplication and demonstrates 
-that it can be viewed as a linear combination of the matrix columns.
-"""
+# Exercise 5. Matrix Times Vector
 
-import numpy as np
+### Statement
+Let
+$$A = \begin{pmatrix} 2 & -1 \\ 1 & 3 \end{pmatrix}, \quad x = \begin{pmatrix} 4 \\ 2 \end{pmatrix}$$
+Compute $Ax$. Then express $Ax$ as a linear combination of the columns of $A$, with coefficients coming from the vector $x$[cite: 15].
 
-def solve_exercise_5():
-    # Define matrix A and vector x
-    A = np.array([[2, -1], 
-                  [1, 3]])
-    
-    x = np.array([4, 
-                  2])
+### Theory
+* **Matrix-Vector Multiplication:** Multiplying a matrix by a vector can be understood as taking the dot products of the rows of the matrix with the vector, or equivalently, as a linear combination of the columns of the matrix weighted by the entries of the vector[cite: 15].
 
-    # 1. Compute Ax
-    Ax = np.dot(A, x)
-    print("Computed Ax:")
-    print(Ax)
+### Essential Steps & Solution
+1. **Compute $Ax$:**
+   $$Ax = \begin{pmatrix} (2)(4) + (-1)(2) \\ (1)(4) + (3)(2) \end{pmatrix} = \begin{pmatrix} 8 - 2 \\ 4 + 6 \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \end{pmatrix}$$
 
-    # 2. Extract columns of A
-    c1 = A[:, 0]
-    c2 = A[:, 1]
-
-    # 3. Express Ax as a linear combination of columns using coefficients from x
-    linear_combination = x[0] * c1 + x[1] * c2
-    print("\nLinear Combination (x[0]*c1 + x[1]*c2):")
-    print(linear_combination)
-
-    # Verification
-    assert np.allclose(Ax, linear_combination), "Results do not match!"
-    print("\nVerification successful: Ax is equivalent to the linear combination of the columns of A.")
-
-if __name__ == "__main__":
-    solve_exercise_5()
-    
+2. **Express as a linear combination:**
+   $$Ax = 4 \begin{pmatrix} 2 \\ 1 \end{pmatrix} + 2 \begin{pmatrix} -1 \\ 3 \end{pmatrix} = \begin{pmatrix} 8 \\ 4 \end{pmatrix} + \begin{pmatrix} -2 \\ 6 \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \end{pmatrix}$$
