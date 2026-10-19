@@ -4,9 +4,8 @@
 For 
 $$
 A = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 3 & 4 \\ 2 & 1 & 5 \end{pmatrix}
-$$
 compute $\det A$ using Sarrus' rule. Then perform one simple check using a chosen property of the determinant[cite: 7].
-
+$$
 ### Solution:
 
 **1. Computation using Sarrus' Rule:**
