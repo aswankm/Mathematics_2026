@@ -37,6 +37,7 @@ $$
 $$
 
 **3. Resulting Inverse:**
+
 $$
 A^{-1} = \frac{1}{2}\begin{pmatrix} 1 & -1 & 1 \\ 1 & 1 & -1 \\ -1 & 1 & 1 \end{pmatrix}
 $$
