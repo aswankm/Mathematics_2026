@@ -9,7 +9,7 @@ $$
 
 describe nonuniform scaling and shear[. For $T = HS$, find $T^{-1}$ in two ways:
 1. First compute $T$, then its inverse.
-2. Use $(HS)^{-1} = S^{-1}H^{-1}.
+2. Use $(HS)^{-1} = S^{-1}H^{-1}$.
 
 Compare the results. Additionally compute $H^{-1}S^{-1}$ and verify that the incorrect order gives a different matrix. Explain the rule: "when undoing a composition of operations, we undo them from the end"[cite: 7].
 
