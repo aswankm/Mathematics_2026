@@ -12,6 +12,7 @@ Show the augmented matrix $[A \mid I]$ after successive operations and explain w
 ### Solution:
 
 **1. Set up the Augmented Matrix $[A \mid I]$:**
+
 $$
 \left(\begin{array}{cc|cc} 1 & 2 & 1 & 0 \\ 3 & 5 & 0 & 1 \end{array}\right)
 $$
