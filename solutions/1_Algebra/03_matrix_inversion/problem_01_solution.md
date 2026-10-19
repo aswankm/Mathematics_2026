@@ -26,5 +26,9 @@ $$
 **3. Conclusion:**
 
 $$
-Since both products result in the identity matrix ($AB = BA = I$), $B$ satisfies the formal definition of an inverse, confirming that $B = A^{-1}$.
+Since both products result in the identity matrix ($AB = BA = I$), 
+$$
+
+$$
+$B$ satisfies the formal definition of an inverse, confirming that $B = A^{-1}$.
 $$
