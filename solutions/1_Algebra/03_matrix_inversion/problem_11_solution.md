@@ -12,6 +12,7 @@ find all $t$ for which the matrix is invertible, and then give a formula for $A(
 ### Solution:
 
 **1. Compute the Determinant:**
+
 $$
 \det(A(t)) = (1)(1) - (t)(t) = 1 - t^2
 $$
