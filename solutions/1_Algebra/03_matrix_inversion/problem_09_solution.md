@@ -37,4 +37,8 @@ $$
 AX = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} -1 & -7 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} -1 + 4 & -7 + 8 \\ 0 + 2 & 0 + 4 \end{pmatrix} = \begin{pmatrix} 3 & 1 \\ 2 & 4 \end{pmatrix} = B
 $$
 
-* **Conclusion:** *The computed matrix $X = \begin{pmatrix} -1 & -7 \\ 2 & 4 \end{pmatrix}$ correctly satisfies $AX = B$[cite: 9].
+* **Conclusion:**
+
+$$
+*The computed matrix $X = \begin{pmatrix} -1 & -7 \\ 2 & 4 \end{pmatrix}$ correctly satisfies $AX = B$[cite: 9].
+$$
