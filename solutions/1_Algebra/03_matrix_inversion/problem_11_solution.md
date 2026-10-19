@@ -17,6 +17,7 @@ $$
 $$
 
 **2. Condition for Invertibility:**
+
 A $2 \times 2$ matrix is invertible if and only if its determinant is non-zero:
 $$
 1 - t^2 \neq 0 \implies t \neq 1 \text{ and } t \neq -1
