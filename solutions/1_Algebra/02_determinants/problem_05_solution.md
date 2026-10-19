@@ -11,8 +11,8 @@ find $\det A$ by simplifying the matrix with row operations. At each step, indic
 
 ### Solution:
 
-**1. Initial Matrix:**
 $$
+**1. Initial Matrix:**
 A = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 1 & 0 \\ -1 & 4 & 2 \end{pmatrix}
 $$
 
