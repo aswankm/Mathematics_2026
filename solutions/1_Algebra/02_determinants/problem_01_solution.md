@@ -1,4 +1,3 @@
-
 ## Exercise 1. Determinant of a 2x2 Matrix
 
 ### Compute:
