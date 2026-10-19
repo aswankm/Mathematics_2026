@@ -12,11 +12,10 @@ Solve the equation $AX = B$ for $X$. Before calculating, decide on which side of
 ### Solution:
 
 **1. Placement of $A^{-1}$:**
-
 $$
 Since $A$ is on the left of $X$ in the expression $AX = B$, we must apply $A^{-1}$ from the **left** on both sides:
 A^{-1}(AX) = A^{-1}B \implies X = A^{-1}B
-$$[cite: 9]
+$$
 
 **2. Compute $A^{-1}$:**
 Using the $2 \times 2$ inverse formula ($\det(A) = 1$):
