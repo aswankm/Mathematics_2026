@@ -12,8 +12,8 @@ check, without using a formula, whether $B = A^{-1}$. Compute $AB$ and $BA$ and 
 ### Solution:
 
 **1. Compute Product $AB$:**
-$$
 
+$$
 AB = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & -1 \\ -1 & 2 \end{pmatrix} = \begin{pmatrix} 2 - 1 & -2 + 2 \\ 1 - 1 & -1 + 2 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}
 $$
 
