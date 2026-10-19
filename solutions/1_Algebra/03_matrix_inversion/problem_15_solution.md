@@ -7,9 +7,9 @@ $$
 A = \begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix}, \quad b = \begin{pmatrix} 7 \\ 8 \end{pmatrix}
 $$
 
-solve $Ax = b$ in two ways[cite: 6]:
-1. using $A^{-1}$[cite: 6],
-2. using Gaussian elimination[cite: 6].
+solve $Ax = b$ in two ways:
+1. using $A^{-1}$,
+2. using Gaussian elimination.
 
 Compare both solutions, the number of essential steps, and state which method was simpler in this example[cite: 6].
 
