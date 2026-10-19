@@ -12,6 +12,7 @@ Check the result by multiplication[cite: 10].
 ### Solution:
 
 **1. Set up the Augmented Matrix $[A \mid I]$:**
+
 $$
 \left(\begin{array}{ccc|ccc} 1 & 1 & 0 & 1 & 0 & 0 \\ 0 & 1 & 1 & 0 & 1 & 0 \\ 1 & 0 & 1 & 0 & 0 & 1 \end{array}\right)
 $$
