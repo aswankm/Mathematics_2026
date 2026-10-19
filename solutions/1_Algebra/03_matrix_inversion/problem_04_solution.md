@@ -36,6 +36,7 @@ $$
 $$
 
 **3. Resulting Inverse:**
+
 $$
 A^{-1} = \begin{pmatrix} -5 & 2 \\ 3 & -1 \end{pmatrix}
 $$
