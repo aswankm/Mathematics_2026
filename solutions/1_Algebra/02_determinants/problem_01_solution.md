@@ -7,15 +7,8 @@ $$
 
 ### Solution:
 
-**1. First Matrix:**
-$$
-\det \begin{pmatrix} 3 & -2 \\ 5 & 4 \end{pmatrix} = (3)(4) - (-2)(5) = 12 + 10 = 22
-$$
-
-**2. Second Matrix:**
-$$
-\det \begin{pmatrix} 1 & 7 \\ 2 & 14 \end{pmatrix} = (1)(14) - (7)(2) = 14 - 14 = 0
-$$
+1. **First Matrix:** $\det \begin{pmatrix} 3 & -2 \\ 5 & 4 \end{pmatrix} = (3)(4) - (-2)(5) = 12 + 10 = 22$
+2. **Second Matrix:** $\det \begin{pmatrix} 1 & 7 \\ 2 & 14 \end{pmatrix} = (1)(14) - (7)(2) = 14 - 14 = 0$
 
 ### Which matrix is invertible? Justify your answer.
 
