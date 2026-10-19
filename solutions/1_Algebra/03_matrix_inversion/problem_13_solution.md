@@ -7,9 +7,9 @@ $$
 S = \begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix}, \quad H = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}
 $$
 
-describe nonuniform scaling and shear[cite: 7]. For $T = HS$, find $T^{-1}$ in two ways[cite: 7]:
-1. First compute $T$, then its inverse[cite: 7].
-2. Use $(HS)^{-1} = S^{-1}H^{-1}$[cite: 7].
+describe nonuniform scaling and shear[. For $T = HS$, find $T^{-1}$ in two ways:
+1. First compute $T$, then its inverse.
+2. Use $(HS)^{-1} = S^{-1}H^{-1}.
 
 Compare the results. Additionally compute $H^{-1}S^{-1}$ and verify that the incorrect order gives a different matrix. Explain the rule: "when undoing a composition of operations, we undo them from the end"[cite: 7].
 
