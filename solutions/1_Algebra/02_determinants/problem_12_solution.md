@@ -33,4 +33,6 @@ $$
 $$
 
 **4. Structural Explanation:**
-When $t = 6$, the original second row becomes $$\begin{pmatrix} 2 & 4 & 6 \end{pmatrix}$$, which is an exact scalar multiple ($2 \times$) of the first row $\begin{pmatrix} 1 & 2 & 3 \end{pmatrix}$. This creates linear dependence between the rows, making the determinant zero and rendering the matrix non-invertible.
+When $t = 6$, the original second row becomes
+$$\begin{pmatrix} 2 & 4 & 6 \end{pmatrix}$$,
+which is an exact scalar multiple ($2 \times$) of the first row $\begin{pmatrix} 1 & 2 & 3 \end{pmatrix}$. This creates linear dependence between the rows, making the determinant zero and rendering the matrix non-invertible.
