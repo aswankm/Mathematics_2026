@@ -10,6 +10,7 @@ $$
 0 & 0 & 0 & \big| & 0
 \end{bmatrix}
 $$
+
 determine the number of solutions and write them in parametric form. Explain how you know how many variables may be chosen freely.
 
 ### Solution
