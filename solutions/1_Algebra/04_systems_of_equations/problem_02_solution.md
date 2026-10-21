@@ -3,6 +3,7 @@
 
 ### Statement
 Solve using Gaussian elimination:
+
 $$
 \begin{cases}
 x + y + z = 6, \\
@@ -10,11 +11,13 @@ x + y + z = 6, \\
 x + 2y - z = 2.
 \end{cases}
 $$
+
 After solving, substitute the result into all equations and check consistency.
 
 ### Solution
 
 #### 1. Augmented Matrix Form
+
 $$
 \begin{bmatrix}
 1 & 1 & 1 & \big| & 6 \\
@@ -25,6 +28,7 @@ $$
 
 #### 2. Row Elimination
 1. **$R_2 \leftarrow R_2 - 2R_1$** and **$R_3 \leftarrow R_3 - R_1$**:
+ 
    $$
    \begin{bmatrix}
    1 & 1 & 1 & \big| & 6 \\
@@ -34,6 +38,7 @@ $$
    $$
 
 2. **Swap $R_2 \leftrightarrow R_3$**:
+ 
    $$
    \begin{bmatrix}
    1 & 1 & 1 & \big| & 6 \\
@@ -43,6 +48,7 @@ $$
    $$
 
 3. **$R_3 \leftarrow R_3 + 3R_2$**:
+
    $$
    \begin{bmatrix}
    1 & 1 & 1 & \big| & 6 \\
