@@ -3,7 +3,7 @@
 ### Statement
 Solve or show that the system is inconsistent:
 
-begin{cases}
+\begin{cases}
 
 $$
 x + 2y = 3, \\
