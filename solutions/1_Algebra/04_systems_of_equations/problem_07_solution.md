@@ -2,12 +2,14 @@
 
 ### Statement
 Analyze, depending on the parameter $a$, the system:
+
 $$
 \begin{cases}
 x + y = 2, \\
 ax + ay = 4.
 \end{cases}
 $$
+
 Among the three possibilities — **exactly one solution**, **infinitely many solutions**, **no solution** — determine which actually occur and for which values of $a$. If one type cannot occur, explain why.
 
 ### Solution
