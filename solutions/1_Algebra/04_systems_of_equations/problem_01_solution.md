@@ -41,17 +41,20 @@ $$
 * **Coefficient Matrix ($A$):** 
 
 $$
+
 A = \begin{bmatrix} 2 & -1 & 1 \\ 1 & 3 & -2 \\ 3 & 1 & 1 \end{bmatrix}$$
 
 * **Vector of Unknowns ($x$):** 
 
    $$
+  
   x = \begin{bmatrix} x \\ y \\ z \end{bmatrix}
   $$
 
 * **Right-Hand Side Vector ($b$):** 
 
    $$
+  
   b = \begin{bmatrix} 4 \\ 1 \\ 7 \end{bmatrix}
   $$
 
