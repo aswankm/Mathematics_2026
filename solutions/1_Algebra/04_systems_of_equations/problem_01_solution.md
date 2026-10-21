@@ -10,7 +10,10 @@ x + 3y - 2z = 1, \\
 3x + y + z = 7.
 \end{cases}
 $$
-in the form $Ax = b$. Identify the coefficient matrix, the vector of unknowns, and the right-hand side vector. Explain how each row of the matrix corresponds to one equation.
+
+in the form $Ax = b$.
+
+Identify the coefficient matrix, the vector of unknowns, and the right-hand side vector. Explain how each row of the matrix corresponds to one equation.
 
 ### Solution
 
