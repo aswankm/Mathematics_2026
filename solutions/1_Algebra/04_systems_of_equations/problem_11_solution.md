@@ -16,7 +16,6 @@ Use elimination and separately analyze the parameter values for which a standard
 ### Solution
 
 #### 1. Augmented Matrix Form and Elimination
-
 $$
 \begin{bmatrix}
 1 & 1 & 1 & \big| & 1 \\
