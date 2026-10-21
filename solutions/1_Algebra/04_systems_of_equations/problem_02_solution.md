@@ -1,3 +1,4 @@
+
 ## Exercise 2. Gaussian Elimination — One Solution
 
 ### Statement
