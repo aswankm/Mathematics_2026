@@ -2,6 +2,7 @@
 
 ### Statement
 Solve:
+
 $$
 \begin{cases}
 x + y + z = 2, \\
@@ -9,11 +10,13 @@ x + y + z = 2, \\
 x - y + z = 0.
 \end{cases}
 $$
+
 Give the solution in parametric form, identify a free variable, and for one chosen parameter value check that the resulting point really satisfies the system.
 
 ### Solution
 
 #### 1. Augmented Matrix Form
+
 $$
 \begin{bmatrix}
 1 & 1 & 1 & \big| & 2 \\
@@ -60,6 +63,7 @@ $$
 * From $R_1$: $x + 1 + t = 2 \implies x = 1 - t$
 
 **Parametric Solution:**
+
 $$
 (x, y, z) = (1 - t,\, 1,\, t) \quad \text{where } t \in \mathbb{R}
 $$
