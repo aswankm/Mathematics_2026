@@ -10,6 +10,7 @@ x + 2y = 3, \\
 2x + 4y = 7.
 \end{cases}
 $$
+
 Show how the contradiction appears in the matrix after elimination and interpret it in terms of equations.
 
 ### Solution
