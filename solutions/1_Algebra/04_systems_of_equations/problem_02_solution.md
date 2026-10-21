@@ -18,6 +18,7 @@ After solving, substitute the result into all equations and check consistency.
 
 $$
 \begin{bmatrix}
+
 1 & 1 & 1 & \big| & 6 \\
 2 & -1 & 1 & \big| & 3 \\
 1 & 2 & -1 & \big| & 2
@@ -29,8 +30,11 @@ $$
 
     $$
    \begin{bmatrix}
+   
    1 & 1 & 1 & \big| & 6 \\
+   
    0 & -3 & -1 & \big| & -9 \\
+   
    0 & 1 & -2 & \big| & -4
    \end{bmatrix}
    $$
