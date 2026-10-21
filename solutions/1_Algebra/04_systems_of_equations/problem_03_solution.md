@@ -3,8 +3,9 @@
 ### Statement
 Solve or show that the system is inconsistent:
 
-$$
 begin{cases}
+
+$$
 x + 2y = 3, \\
 2x + 4y = 7.
 \end{cases}
