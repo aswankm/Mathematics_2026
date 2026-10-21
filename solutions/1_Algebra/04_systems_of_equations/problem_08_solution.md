@@ -2,6 +2,7 @@
 
 ### Statement
 Solve by elimination the two systems:
+
 $$
 \begin{cases}
 2x + y = 5, \\
@@ -13,6 +14,7 @@ x - y = 1,
 x - y = 4.
 \end{cases}
 $$
+
 Compare the successive elimination steps. Which part of the calculation is the same in both cases, and why?
 
 ### Solution
@@ -26,6 +28,7 @@ $$
 $$
 
 **Step 1:** Swap $R_1 \leftrightarrow R_2$:
+
 $$
 \left[\begin{array}{cc|c|c}
 1 & -1 & 1 & 4 \\
@@ -42,6 +45,7 @@ $$
 $$
 
 **Step 3:** Apply $R_2 \leftarrow \frac{1}{3}R_2$:
+
 $$
 \left[\begin{array}{cc|c|c}
 1 & -1 & 1 & 4 \\
