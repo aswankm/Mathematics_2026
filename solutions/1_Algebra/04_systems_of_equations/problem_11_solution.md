@@ -37,7 +37,7 @@ $$
 
 #### 2. Parameter Analysis
 
-* **Case 1: $t = 1$ (Standard step invalid)**
+* **Case 1:$t = 1$ (Standard step invalid)**
   Substituting $t = 1$ into the reduced matrix gives:
 
   $$
@@ -58,6 +58,7 @@ $$
   * $x = 1 - y - z = 1 - \frac{3}{t-1} = \frac{t-4}{t-1}$
 
   **Result:** **Exactly one solution**:
+
   $$
   (x, y, z) = \left( \frac{t - 4}{t - 1},\, \frac{1}{t - 1},\, \frac{2}{t - 1} \right)
   $$
