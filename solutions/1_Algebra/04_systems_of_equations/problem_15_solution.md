@@ -20,7 +20,6 @@ For each of the following systems, perform only as much elimination as necessary
   
 * **System 2:** 
 
-
   $$
   \begin{cases}
   x + y = 2, \\
@@ -28,9 +27,7 @@ For each of the following systems, perform only as much elimination as necessary
   \end{cases}
   $$
 
-  
 * **System 3:** 
-
 
   $$
   \begin{cases}
@@ -39,7 +36,6 @@ For each of the following systems, perform only as much elimination as necessary
   \end{cases}
   $$
   
-
 For each, justify the classification: **one solution**, **infinitely many solutions**, or **no solution**.
 
 ### Solution
