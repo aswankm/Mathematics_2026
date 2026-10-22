@@ -26,6 +26,7 @@ For each of the following systems, perform only as much elimination as necessary
   2x + 2y = 4
   \end{cases}
   $$
+  
 * **System 3:** 
 
    $$
