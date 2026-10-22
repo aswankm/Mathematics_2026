@@ -2,6 +2,7 @@
 
 ### Statement
 Compare the systems
+
 $$
 \begin{cases}
 x + y = 2, \\
@@ -15,6 +16,7 @@ x + y = 2, \\
 3x = 3.1
 \end{cases}
 $$
+
 Check the consistency of each system and explain why a small change in one number can change the type of the system.
 
 ### Solution
