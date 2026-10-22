@@ -27,6 +27,7 @@ $$
 $$
 
 #### 2. Row Elimination
+
 1. **$R_2 \leftarrow R_2 - 2R_1$** and **$R_3 \leftarrow R_3 - R_1$**:
  
    $$
