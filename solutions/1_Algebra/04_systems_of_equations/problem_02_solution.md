@@ -28,35 +28,35 @@ $$
 
 #### 2. Row Elimination
 
-1. **$R_2 \leftarrow R_2 - 2R_1$** and **$R_3 \leftarrow R_3 - R_1$**:
- 
-   $$
-   \begin{bmatrix}
-   1 & 1 & 1 & \big| & 6 \\
-   0 & -3 & -1 & \big| & -9 \\
-   0 & 1 & -2 & \big| & -4
-   \end{bmatrix}
-   $$
+**Step 1:** Apply $R_2 \leftarrow R_2 - 2R_1$ and $R_3 \leftarrow R_3 - R_1$:
 
-2. **Swap $R_2 \leftrightarrow R_3$**:
- 
-   $$
-   \begin{bmatrix}
-   1 & 1 & 1 & \big| & 6 \\
-   0 & 1 & -2 & \big| & -4 \\
-   0 & -3 & -1 & \big| & -9
-   \end{bmatrix}
-   $$
+$$
+\begin{bmatrix}
+1 & 1 & 1 & \big| & 6 \\
+0 & -3 & -1 & \big| & -9 \\
+0 & 1 & -2 & \big| & -4
+\end{bmatrix}
+$$
 
-3. **$R_3 \leftarrow R_3 + 3R_2$**:
+**Step 2:** Swap $R_2 \leftrightarrow R_3$:
 
-   $$
-   \begin{bmatrix}
-   1 & 1 & 1 & \big| & 6 \\
-   0 & 1 & -2 & \big| & -4 \\
-   0 & 0 & -7 & \big| & -21
-   \end{bmatrix}
-   $$
+$$
+\begin{bmatrix}
+1 & 1 & 1 & \big| & 6 \\
+0 & 1 & -2 & \big| & -4 \\
+0 & -3 & -1 & \big| & -9
+\end{bmatrix}
+$$
+
+**Step 3:** Apply $R_3 \leftarrow R_3 + 3R_2$:
+
+$$
+\begin{bmatrix}
+1 & 1 & 1 & \big| & 6 \\
+0 & 1 & -2 & \big| & -4 \\
+0 & 0 & -7 & \big| & -21
+\end{bmatrix}
+$$
 
 #### 3. Back-Substitution
 * From $R_3$: $-7z = -21 \implies z = 3$
