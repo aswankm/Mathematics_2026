@@ -4,7 +4,7 @@
 
 For each of the following systems, perform only as much elimination as necessary to recognize its type:
 
-* **System 1:**  $\begin{cases} x + y = 2, \\ x - y = 0 \end{cases}$
+* **System 1:**  $ \begin{cases} x + y = 2, \\ x - y = 0 \end{cases} $
 * **System 2:**  $\begin{cases} x + y = 2, \\ 2x + 2y = 4 \end{cases}$
 * **System 3:**  $\begin{cases} x + y = 2, \\ 2x + 2y = 5 \end{cases}$
 
