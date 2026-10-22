@@ -1,6 +1,7 @@
 ## Exercise 15. Classifying Three Systems
 
 ### Statement
+
 For each of the following systems, perform only as much elimination as necessary to recognize its type:
 
 * **System 1:**  $\begin{cases} x + y = 2, \\ x - y = 0 \end{cases}$
