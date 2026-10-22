@@ -39,13 +39,13 @@ $$
 * **Case 1:$t = 1$ (Standard step invalid)**
   Substituting $t = 1$ into the reduced matrix gives:
 
-  $$
+$$
   \begin{bmatrix}
   1 & 1 & 1 & \big| & 1 \\
   0 & 0 & 0 & \big| & 1 \\
   0 & 0 & 0 & \big| & 2
   \end{bmatrix}
-  $$
+$$
   
   Rows 2 and 3 yield $0 = 1$ and $0 = 2$, which are impossible contradictions.
   **Result:** **No solution**.
@@ -58,6 +58,6 @@ $$
 
   **Result:** **Exactly one solution**:
 
-  $$
+$$
   (x, y, z) = \left( \frac{t - 4}{t - 1},\, \frac{1}{t - 1},\, \frac{2}{t - 1} \right)
-  $$
+$$
