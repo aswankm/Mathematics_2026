@@ -46,9 +46,9 @@ $$
 
 * **Vector of Unknowns ($x$):** 
 
-  $$
-  x = \begin{bmatrix} x \\ y \\ z \end{bmatrix}
-  $$
+$$
+x = \begin{bmatrix} x \\ y \\ z \end{bmatrix}
+$$
 
 * **Right-Hand Side Vector ($b$):** 
 
