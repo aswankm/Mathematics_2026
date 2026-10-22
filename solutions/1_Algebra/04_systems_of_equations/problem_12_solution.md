@@ -2,6 +2,7 @@
 
 ### Statement
 Solve:
+
 $$
 \begin{cases}
 x + 2y - z = 0, \\
@@ -9,11 +10,13 @@ x + 2y - z = 0, \\
 x - y + 2z = 0.
 \end{cases}
 $$
+
 Give all solutions in parametric form and explain why $(0, 0, 0)$ always satisfies a homogeneous system.
 
 ### Solution
 
 #### 1. Augmented Matrix Form
+
 $$
 \begin{bmatrix}
 1 & 2 & -1 & \big| & 0 \\
@@ -60,6 +63,7 @@ $$
 * From Row 1: $x + 2(t) - t = 0 \implies x = -t$.
 
 **Solution Vector:**
+
 $$
 (x, y, z) = (-t,\, t,\, t) = t(-1,\, 1,\, 1) \quad \text{where } t \in \mathbb{R}
 $$
