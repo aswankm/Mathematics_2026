@@ -1,38 +1,53 @@
 # Exercise 7. Identity Matrix, Zero Matrix, and Powers
 
-### Statement & Solution Overview
-For:
-```text
-A = [ 2   1 ]
-    [ 0   2 ]
-1. Compute Transposes A^T and B^T:
-   A^T = [ 1  4 ]        B^T = [  1  2  -1 ]
-         [ 2  5 ]              [  0   1   3 ]
-         [ 3  6 ]
+## Statement
+Let $A = \begin{bmatrix} 2 & 1 \\ 0 & 2 \end{bmatrix}$. Compute the powers $A^2$ and $A^3$, and determine the general pattern for $A^k$.
 
-2. Compute Matrix Product AB:
-   AB = [ (1)(1)+(2)(2)+(3)(-1)   (1)(0)+(2)(1)+(3)(3) ]
-        [ (4)(1)+(5)(2)+(6)(-1)   (4)(0)+(5)(1)+(6)(3) ]
+---
 
-      = [ 1 + 4 - 3   0 + 2 + 9 ]
-        [ 4 + 10 - 6  0 + 5 + 18 ]
+## Solution
 
-      = [  2  11 ]
-        [  8  23 ]
+### 1. Compute $A^2$
+Multiply matrix $A$ by itself:
 
-3. Compute Transpose of Product (AB)^T:
-   (AB)^T = [  2   8 ]
-            [ 11  23 ]
+$$
+A^2 = A \cdot A = \begin{bmatrix} 2 & 1 \\ 0 & 2 \end{bmatrix} \begin{bmatrix} 2 & 1 \\ 0 & 2 \end{bmatrix}
+$$
 
-4. Compute Product of Transposed Factors B^T A^T:
-   B^T A^T = [ (1)(1)+(2)(2)+(-1)(3)   (1)(4)+(2)(5)+(-1)(6) ]
-             [ (0)(1)+(1)(2)+(3)(3)   (0)(4)+(1)(5)+(3)(6) ]
+$$
+A^2 = \begin{bmatrix} (2)(2) + (1)(0) & (2)(1) + (1)(2) \\ (0)(2) + (2)(0) & (0)(1) + (2)(2) \end{bmatrix}
+$$
 
-           = [ 1 + 4 - 3   4 + 10 - 6 ]
-             [ 0 + 2 + 9   0 + 5 + 18 ]
+$$
+A^2 = \begin{bmatrix} 4 & 4 \\ 0 & 4 \end{bmatrix}
+$$
 
-           = [  2   8 ]
-             [ 11  23 ]
+---
 
-5. Final Verification:
-   Since (AB)^T equals B^T A^T (both resulting in [[2, 8], [11, 23]]), the property is verified[cite: 7].
+### 2. Compute $A^3$
+Multiply $A^2$ by $A$:
+
+$$
+A^3 = A^2 \cdot A = \begin{bmatrix} 4 & 4 \\ 0 & 4 \end{bmatrix} \begin{bmatrix} 2 & 1 \\ 0 & 2 \end{bmatrix}
+$$
+
+$$
+A^3 = \begin{bmatrix} (4)(2) + (4)(0) & (4)(1) + (4)(2) \\ (0)(2) + (4)(0) & (0)(1) + (4)(2) \end{bmatrix}
+$$
+
+$$
+A^3 = \begin{bmatrix} 8 & 12 \\ 0 & 8 \end{bmatrix}
+$$
+
+---
+
+### 3. General Pattern for $A^k$
+Observing the pattern from $A^1$, $A^2$, and $A^3$:
+* For $A^1 = \begin{bmatrix} 2^1 & 1 \cdot 2^0 \\ 0 & 2^1 \end{bmatrix}$
+* For $A^2 = \begin{bmatrix} 2^2 & 2 \cdot 2^1 \\ 0 & 2^2 \end{bmatrix}$
+* For $A^3 = \begin{bmatrix} 2^3 & 3 \cdot 2^2 \\ 0 & 2^3 \end{bmatrix}$
+
+The general formula for any integer $k \ge 1$ is:
+$$
+A^k = \begin{bmatrix} 2^k & k \cdot 2^{k-1} \\ 0 & 2^k \end{bmatrix}
+$$
