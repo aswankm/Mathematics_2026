@@ -53,6 +53,7 @@ $$
 $$
   \begin{bmatrix} -1 \\ 2 \end{bmatrix}
 $$
+
   which matches $Ab_1$.
 
 - The second column of $AB$ is:
