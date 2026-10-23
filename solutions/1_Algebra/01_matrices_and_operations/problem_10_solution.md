@@ -45,7 +45,7 @@ $$
 
 ---
 
-### 5. Comparison and Explanation
-* The first column of $AB$ is $\begin{bmatrix} -1 \\ 2 \end{bmatrix}$, which matches $Ab_1$.
-* The second column of $AB$ is $\begin{bmatrix} 2 \\ 1 \end{bmatrix}$, which matches $Ab_2$.
+## 5. Comparison and Explanation
+* The first column of $AB$ is $\begin{bmatrix} -1 \\\\ 2 \end{bmatrix}$, which matches $Ab_1$.
+* The second column of $AB$ is $\begin{bmatrix} 2 \\\\ 1 \end{bmatrix}$, which matches $Ab_2$.
 * **Conclusion:** The columns of the product matrix $AB$ are precisely the matrix-vector products of matrix $A$ with each respective column of matrix $B$, meaning $AB = \begin{bmatrix} Ab_1 & Ab_2 \end{bmatrix}$.
