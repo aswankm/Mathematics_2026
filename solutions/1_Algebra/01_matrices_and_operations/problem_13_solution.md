@@ -31,7 +31,8 @@ $$
   $$
 
 - **$F^5$ ($F^4 F$):**
-  $$
+
+$$
   F^5 = \begin{bmatrix} 5 & 3 \\ 3 & 2 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix} = \begin{bmatrix} (5)(1) + (3)(1) & (5)(1) + (3)(0) \\ (3)(1) + (2)(1) & (3)(1) + (2)(0) \end{bmatrix} = \begin{bmatrix} 8 & 5 \\ 5 & 3 \end{bmatrix}
 $$
 
