@@ -61,6 +61,7 @@ $$
 
 - **Conditions:** $c = 0$ and $a = d$.
 - **General Form of $B$:** Substituting these conditions gives:
+
   $$
   B = \begin{bmatrix} a & b \\ 0 & a \end{bmatrix}
   $$
