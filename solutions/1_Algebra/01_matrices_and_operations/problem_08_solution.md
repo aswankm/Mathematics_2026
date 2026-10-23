@@ -28,7 +28,7 @@ $$
 
 ### 2. Step 1 ($R_2 \leftarrow R_2 - 2R_1$)
 * **Calculation:** 
- $$
+$$
   R_2 - 2R_1 = (2, 4, 1) - 2(1, 2, -1) = (2-2, 4-4, 1 - (-2)) = (0, 0, 3)
 $$
 * **Matrix after Step 1:**
@@ -68,11 +68,13 @@ $$
 
 ### 4. Step 3 (Interchange $R_2$ and $R_3$)
 * **Matrix after Step 3:**
-  $$
+
+$$
   \begin{bmatrix} 
   1 & 2 & -1 \\\\ 
   0 & 3 & 2 \\\\ 
   0 & 0 & 3 
   \end{bmatrix}
-  $$
+ $$
+ 
 * **Reversing Operation:** Interchange $R_2$ and $R_3$ again
