@@ -43,9 +43,9 @@ $$
 
 ### 3. General Pattern for $A^k$
 Observing the pattern from $A^1$, $A^2$, and $A^3$:
-* For $A^1 = \begin{bmatrix} 2^1 & 1 \cdot 2^0 \\ 0 & 2^1 \end{bmatrix}$
-* For $A^2 = \begin{bmatrix} 2^2 & 2 \cdot 2^1 \\ 0 & 2^2 \end{bmatrix}$
-* For $A^3 = \begin{bmatrix} 2^3 & 3 \cdot 2^2 \\ 0 & 2^3 \end{bmatrix}$
+- For $A^1 = \begin{bmatrix} 2^1 & 1 \cdot 2^0 \\ 0 & 2^1 \end{bmatrix}$
+- For $A^2 = \begin{bmatrix} 2^2 & 2 \cdot 2^1 \\ 0 & 2^2 \end{bmatrix}$
+- For $A^3 = \begin{bmatrix} 2^3 & 3 \cdot 2^2 \\ 0 & 2^3 \end{bmatrix}$
 
 The general formula for any integer $k \ge 1$ is:
 $$
