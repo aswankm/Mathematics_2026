@@ -41,9 +41,9 @@ $$
 
 - The entries of the matrices $F^n$ correspond to consecutive Fibonacci numbers. Specifically, $F^n$ contains:
 
-  $$
+$$
   F^n = \begin{bmatrix} F_{n+1} & F_n \\ F_n & F_{n-1} \end{bmatrix}
-  $$
+$$
 
 ---
 
