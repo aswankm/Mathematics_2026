@@ -5,6 +5,7 @@
 $$
 \text{Let } A = \begin{bmatrix} 2 & -1 \\ 1 & 3 \end{bmatrix} \text{ and } x = \begin{bmatrix} 4 \\ 2 \end{bmatrix}. \text{ Compute } Ax. \text{ Then express } Ax \text{ as a linear combination of the columns of } A, \text{ with coefficients coming from the vector } x.
 $$
+
 ---
 
 ## Theory
