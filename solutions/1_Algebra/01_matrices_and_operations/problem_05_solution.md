@@ -1,11 +1,8 @@
 # Exercise 5. Matrix Times Vector
 
 ### Statement
-
-$$
 Let A = [ 2  -1 ] and x = [ 4 ][cite: 15]. Compute Ax. Then express Ax as a linear combination of the columns of A, with coefficients coming from the vector x[cite: 15].
         [ 1   3 ]          [ 2 ]
-$$
 
 
 ### Theory
