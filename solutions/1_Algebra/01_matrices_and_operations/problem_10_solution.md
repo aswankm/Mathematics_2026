@@ -1,3 +1,4 @@
+
 # Exercise 10. Columns of a Matrix Product
 
 ### Statement & Solution Overview
@@ -59,6 +60,7 @@ $$
 $$
   \begin{bmatrix} 2 \\ 1 \end{bmatrix}
 $$
+
   which matches $Ab_2$.
 
 - **Conclusion:** The columns of the product matrix $AB$ are precisely the matrix-vector products of matrix $A$ with each respective column of matrix $B$, meaning:
