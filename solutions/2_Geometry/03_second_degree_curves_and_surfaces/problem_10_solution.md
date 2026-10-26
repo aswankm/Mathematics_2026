@@ -25,9 +25,9 @@ For each surface, describe the cross-sections $x = 0$, $y = 0$, and $z = c$, the
 
 * **Cross-Section $x = 0$ ($yz$-plane):**  
 
-  $$
+$$
   z = y^2
-  $$
+$$
 
   A parabola opening upwards along the positive $z$-axis with vertex at $(0, 0, 0)$.
 
@@ -41,9 +41,9 @@ For each surface, describe the cross-sections $x = 0$, $y = 0$, and $z = c$, the
 
 * **Cross-Sections $z = c$ (horizontal planes):**  
 
-  $$
+$$
   x^2 + y^2 = c
-  $$
+$$
 
   * For $c > 0$: **Circles** centered at $(0, 0, c)$ with radius $R = \sqrt{c}$, expanding in size as $c$ increases.
   * For $c = 0$: A single **point**, the origin $(0, 0, 0)$.
