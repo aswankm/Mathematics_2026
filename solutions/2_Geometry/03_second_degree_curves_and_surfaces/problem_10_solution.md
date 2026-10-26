@@ -58,25 +58,25 @@ For each surface, describe the cross-sections $x = 0$, $y = 0$, and $z = c$, the
 
 * **Cross-Section $x = 0$ ($yz$-plane):**  
 
-  $$
+$$
   z = -y^2
-  $$
+$$
 
   A parabola opening downwards along the negative $z$-axis with vertex at $(0, 0, 0)$.
 
 * **Cross-Section $y = 0$ ($xz$-plane):**  
 
-  $$
+$$
   z = x^2
-  $$
+$$
 
   A parabola opening upwards along the positive $z$-axis with vertex at $(0, 0, 0)$.
 
 * **Cross-Sections $z = c$ (horizontal planes):**  
 
-  $$
+$$
   x^2 - y^2 = c
-  $$
+$$
 
   * For $c > 0$: **Hyperbolas** opening along the $x$-axis direction.
   * For $c = 0$: Two intersecting straight lines $x^2 - y^2 = 0 \implies y = \pm x$.
