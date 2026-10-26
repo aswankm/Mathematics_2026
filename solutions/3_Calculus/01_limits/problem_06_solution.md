@@ -54,8 +54,8 @@ $$
   * In this exercise, $x \in \mathbb{R}$, taking all continuous real values as $x \to \infty$.
 * **Analytical Tools:** Because $x$ is a continuous variable, additional calculus tools like **L'Hôpital's Rule** can now be applied directly to evaluate the indeterminate form $\frac{\infty}{\infty}$ by taking derivatives with respect to $x$:
 
-  $$
+$$
   \lim_{x \to \infty} \frac{3x^2 - x + 1}{5x^2 + 4x - 2} \stackrel{\text{H}}{=} \lim_{x \to \infty} \frac{6x - 1}{10x + 4} \stackrel{\text{H}}{=} \lim_{x \to \infty} \frac{6}{10} = \frac{3}{5}
-  $$
+$$
 
   *(Note: L'Hôpital's Rule cannot be directly applied to discrete sequences $a_n$ without extending them to continuous functions).*
