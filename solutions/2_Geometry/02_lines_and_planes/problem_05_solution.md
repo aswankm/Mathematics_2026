@@ -5,11 +5,11 @@ Analyze the position of[cite: 1]:
 
 $$
 L_1: (x, y, z) = (1, 1, 0) + t(1, 2, 1)
-$$[cite: 1]
+$$
 
 $$
 L_2: (x, y, z) = (2, 0, 1) + s(0, 1, -1)
-$$[cite: 1]
+$$
 
 If they intersect, give the intersection point. If not, determine whether they are parallel or skew. Justify the classification.[cite: 1]
 
