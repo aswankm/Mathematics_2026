@@ -6,6 +6,7 @@ For
 $$
 L: (x, y, z) = (1, 1, 0) + t(1, -1, 0), \quad \Pi: x + y + z = 2
 $$
+
 determine whether the line intersects the plane at one point, is parallel to it, or lies in it. Explain the role of the dot product of the direction vector and the normal vector.
 
 > **Why this exercise:** builds a universal test for the relative position of a line and a plane.
