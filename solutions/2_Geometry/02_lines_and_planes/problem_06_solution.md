@@ -1,15 +1,15 @@
 ### Exercise 6. Angle Between Planes[cite: 1]
 
-**Statement:**[cite: 1]  
-Given[cite: 1]
+**Statement:** 
+Given
 
 $$
 \Pi_1: x + y + z = 1, \quad \Pi_2: x - y = 2.
-$$[cite: 1]
+$$
 
-First use the normal vectors to decide whether the planes are parallel. If not, compute the angle between them and explain why the normal vectors alone are enough for this calculation.[cite: 1]
+First use the normal vectors to decide whether the planes are parallel. If not, compute the angle between them and explain why the normal vectors alone are enough for this calculation.
 
-> **Why this exercise:** focuses attention on one mechanism—using normals to analyze position and angle—without also introducing the construction of the intersection line.[cite: 1]
+> **Why this exercise:** focuses attention on one mechanism—using normals to analyze position and angle—without also introducing the construction of the intersection line.
 
 ---
 
