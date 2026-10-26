@@ -30,17 +30,19 @@ Comparing terms:
 ---
 
 #### 2. Intercepts with the Coordinate Axes
-- **$x$-intercepts** (set $y = 0$):  
+- **
 
-  $$
+$x$-intercepts** (set $y = 0$):  
+
+$$
   \frac{x^2}{25} + 0 = 1 \implies x^2 = 25 \implies x = \pm 5 \implies (-5, 0) \text{ and } (5, 0)
-  $$
+$$
 
 - **$y$-intercepts** (set $x = 0$):  
 
-  $$
+$$
   0 + \frac{y^2}{9} = 1 \implies y^2 = 9 \implies y = \pm 3 \implies (0, -3) \text{ and } (0, 3)
-  $$
+$$
 
 ---
 
