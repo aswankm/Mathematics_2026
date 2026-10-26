@@ -1,15 +1,14 @@
-### Exercise 7. A Line Relative to a Plane[cite: 1]
+### Exercise 7. A Line Relative to a Plane
 
-**Statement:**[cite: 1]  
-For[cite: 1]
+**Statement:**
+For
 
 $$
 L: (x, y, z) = (1, 1, 0) + t(1, -1, 0), \quad \Pi: x + y + z = 2
-$$[cite: 1]
+$$
+determine whether the line intersects the plane at one point, is parallel to it, or lies in it. Explain the role of the dot product of the direction vector and the normal vector.
 
-determine whether the line intersects the plane at one point, is parallel to it, or lies in it. Explain the role of the dot product of the direction vector and the normal vector.[cite: 1]
-
-> **Why this exercise:** builds a universal test for the relative position of a line and a plane.[cite: 1]
+> **Why this exercise:** builds a universal test for the relative position of a line and a plane.
 
 ---
 
