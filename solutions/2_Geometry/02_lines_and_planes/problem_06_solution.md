@@ -1,4 +1,4 @@
-### Exercise 6. Angle Between Planes[cite: 1]
+### Exercise 6. Angle Between Planes
 
 **Statement:** 
 Given
