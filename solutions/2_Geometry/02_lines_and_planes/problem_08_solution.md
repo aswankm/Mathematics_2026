@@ -60,9 +60,11 @@ We verify that $I = \left(\frac{3}{2}, 1, \frac{3}{2}\right)$ lies on both the l
 
    For $t = \frac{1}{2}$:
 
+
    $$
    (1, 0, 2) + \frac{1}{2}(1, 2, -1) = \left(1 + \frac{1}{2}, 0 + 1, 2 - \frac{1}{2}\right) = \left(\frac{3}{2}, 1, \frac{3}{2}\right) \quad (\text{True})
    $$
+
 
 3. **Check in the plane equation ($x + y + z = 4$):**
 
