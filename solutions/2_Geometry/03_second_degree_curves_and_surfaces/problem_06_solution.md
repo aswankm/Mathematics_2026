@@ -69,13 +69,13 @@ Comparing with the standard equation $\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b
 
 1. **Substitute $(2, -1)$ into the original left-hand side:**
 
-   $$
+$$
    4(2)^2 + 9(-1)^2 - 16(2) + 18(-1) - 11 = 4(4) + 9(1) - 32 - 18 - 11
-   $$
+$$
 
-   $$
+$$
    = 16 + 9 - 32 - 18 - 11 = 25 - 61 = -36
-   $$
+$$
 
 2. **Consistency check with the completed square form:**  
    Before dividing by $36$, our equation was $4(x - 2)^2 + 9(y + 1)^2 - 36 = 0$.  
