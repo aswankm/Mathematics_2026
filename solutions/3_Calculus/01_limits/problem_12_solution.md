@@ -1,69 +1,61 @@
-### Exercise 13. Fundamental Trigonometric Limit
+### Exercise 12. Exponential Function Limit
 
 **Statement:**  
-Using
+Compute
 
 $$
-\lim_{x \to 0} \frac{\sin x}{x} = 1,
+\lim_{x \to 0} (1 + 3x)^{1/x}.
 $$
 
-compute
+Connect the result with the limit from Exercise 5 and show the appropriate transformation.
 
-$$
-\lim_{x \to 0} \frac{\sin 5x}{x}, \qquad \lim_{x \to 0} \frac{\sin 2x}{\sin 3x}.
-$$
-
-In each case, show how you reduce the expression to the fundamental limit
-> **Why this exercise:** teaches how to reduce new limits to one known pattern
+> **Why this exercise:** teaches how to recognize the classical pattern after a transformation.
 
 ---
 
 ### Solution
 
-#### 1. First Limit: $\lim_{x \to 0} \frac{\sin 5x}{x}$
-To apply the fundamental limit $\lim_{u \to 0} \frac{\sin u}{u} = 1$, the argument inside the sine function must match the denominator. 
+#### 1. Identification and Substitution
+Direct substitution yields the indeterminate form $1^\infty$. 
 
-Multiply and divide the expression by $5$:
+To connect this with the fundamental limit $\lim_{t \to 0} (1 + t)^{1/t} = e$, substitute $t = 3x$.
 
-$$
-\lim_{x \to 0} \frac{\sin 5x}{x} = \lim_{x \to 0} 5 \cdot \frac{\sin 5x}{5x}
-$$
-
-Let $u = 5x$. As $x \to 0$, $u \to 0$. Applying this substitution:
+- As $x \to 0$, $t \to 0$.
+- Solving for $x$ gives $x = \frac{t}{3}$, so the exponent is:
 
 $$
-= 5 \cdot \lim_{u \to 0} \frac{\sin u}{u}
+\frac{1}{x} = \frac{3}{t}
 $$
 
-Since $\lim_{u \to 0} \frac{\sin u}{u} = 1$, we obtain:
+Substitute these into the original limit expression:
 
 $$
-= 5 \cdot 1 = 5
+\lim_{x \to 0} (1 + 3x)^{1/x} = \lim_{t \to 0} (1 + t)^{3/t}
 $$
 
 ---
 
-#### 2. Second Limit: $\lim_{x \to 0} \frac{\sin 2x}{\sin 3x}$
-Divide both the numerator and the denominator by $x$ to introduce the fundamental limit pattern:
+#### 2. Computation Using Limit Laws
+Use the power rule for exponents to isolate the standard limit:
 
 $$
-\lim_{x \to 0} \frac{\sin 2x}{\sin 3x} = \lim_{x \to 0} \frac{\frac{\sin 2x}{x}}{\frac{\sin 3x}{x}}
+\lim_{t \to 0} (1 + t)^{3/t} = \lim_{t \to 0} \left( (1 + t)^{1/t} \right)^3
 $$
 
-Adjust the numerator and denominator by introducing factors of $2$ and $3$:
+Since the function $f(u) = u^3$ is continuous, bring the limit inside the power:
 
 $$
-= \lim_{x \to 0} \frac{2 \cdot \frac{\sin 2x}{2x}}{3 \cdot \frac{\sin 3x}{3x}}
+= \left( \lim_{t \to 0} (1 + t)^{1/t} \right)^3
 $$
 
-Let $u = 2x$ and $v = 3x$. As $x \to 0$, both $u \to 0$ and $v \to 0$:
+Recall from Exercise 5 (adapted to continuous variables) that $\lim_{t \to 0} (1 + t)^{1/t} = e$:
 
 $$
-= \frac{2 \cdot \lim_{u \to 0} \frac{\sin u}{u}}{3 \cdot \lim_{v \to 0} \frac{\sin v}{v}}
+= e^3
 $$
 
-Evaluating the fundamental limits gives:
+---
 
-$$
-= \frac{2 \cdot 1}{3 \cdot 1} = \frac{2}{3}
-$$
+#### 3. Summary of Transformation
+- **Pattern Recognition:** The expression $(1 + 3x)^{1/x}$ matches the classical base-e exponential form $(1 + \text{expression})^{1/\text{expression}}$.
+- **Key Insight:** Substituting $t = 3x$ introduces a factor of $3$ into the exponent reciprocal, resulting in $e^3$ instead of $e^1$.
