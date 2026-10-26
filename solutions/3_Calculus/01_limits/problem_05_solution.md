@@ -19,29 +19,34 @@ Calculate several values for increasing $n$ and compare the observed behavior wi
 Let us compute the value of the expression $a_n = \left(1 + \frac{1}{n}\right)^n$ for progressively larger values of $n$:
 
 * For $n = 1$:  
-  $$
+
+$$
   \left(1 + \frac{1}{1}\right)^1 = 2^1 = 2
-  $$
+$$
 
 * For $n = 10$:  
-  $$
+
+$$
   \left(1 + \frac{1}{10}\right)^{10} = (1.1)^{10} \approx 2.59374
-  $$
+$$
 
 * For $n = 100$:  
-  $$
+
+$$
   \left(1 + \frac{1}{100}\right)^{100} = (1.01)^{100} \approx 2.70481
-  $$
+$$
 
 * For $n = 1,000$:  
-  $$
+
+$$
   \left(1 + \frac{1}{1000}\right)^{1000} = (1.001)^{1000} \approx 2.71692
-  $$
+$$
 
 * For $n = 10,000$:  
-  $$
+
+$$
   \left(1 + \frac{1}{10000}\right)^{10000} = (1.0001)^{10000} \approx 2.71815
-  $$
+$$
 
 ---
 
