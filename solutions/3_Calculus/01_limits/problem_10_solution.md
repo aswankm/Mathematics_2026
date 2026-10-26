@@ -31,9 +31,9 @@ A function $f(x)$ is continuous at a point $x = c$ if and only if three quantiti
 * **Left-Hand Limit ($x \to 2^-$):**  
   For $x < 2$, the function is defined by $f(x) = ax + 1$.  
   
-  $$
+$$
   \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} (ax + 1) = 2a + 1
-  $$
+$$
 
 * **Right-Hand Limit ($x \to 2^+$):**  
   For $x > 2$, the function is defined by $f(x) = x^2 - 1$.  
