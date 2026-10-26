@@ -23,6 +23,7 @@ $$
 $$
 
 Comparing terms:
+
 - $a^2 = 25 \implies a = 5$ (semiaxis along the $x$-axis)
 - $b^2 = 9 \implies b = 3$ (semiaxis along the $y$-axis)
 
@@ -44,6 +45,7 @@ Comparing terms:
 ---
 
 #### 3. Orientation and Stretching Analysis
+
 - **Axis of greater stretching:** The ellipse is **more stretched along the $x$-axis**.
 - **How it is visible in the equation:**  
   The denominator under $x^2$ ($25$) is larger than the denominator under $y^2$ ($9$). The larger denominator ($a^2 > b^2$) indicates that the ellipse extends further along the corresponding coordinate axis ($x$-axis), making the horizontal axis the major axis.
@@ -51,6 +53,7 @@ Comparing terms:
 ---
 
 #### 4. Sketch Description
+
 - **Center:** $(0, 0)$
 - **Vertices on Major Axis:** $(-5, 0)$ and $(5, 0)$
 - **Vertices on Minor Axis:** $(0, -3)$ and $(0, 3)$
