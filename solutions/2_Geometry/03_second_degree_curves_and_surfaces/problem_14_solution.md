@@ -26,26 +26,26 @@ For each surface, describe the cross-sections $z = c$, $x = 0$, and $y = 0$, mak
 * **Cross-Sections $z = c$ (horizontal planes):**  
   Substitute $z = c$ into the equation:
 
-  $$
+$$
   x^2 + y^2 = c^2
-  $$
+$$
 
   * For $c \neq 0$: A **circle** centered at $(0, 0, c)$ with radius $R(c) = |c|$.
   * For $c = 0$: A single **point**, the origin $(0, 0, 0)$ (the apex of the cone).
 
 * **Cross-Section $x = 0$ ($yz$-plane):**  
 
-  $$
+$$
   y^2 = z^2 \implies y = \pm z
-  $$
+$$
 
   Two intersecting straight lines through the origin with slopes $+1$ and $-1$.
 
 * **Cross-Section $y = 0$ ($xz$-plane):**  
 
-  $$
+$$
   x^2 = z^2 \implies x = \pm z
-  $$
+$$
 
   Two intersecting straight lines through the origin with slopes $+1$ and $-1$.
 
@@ -67,17 +67,17 @@ For each surface, describe the cross-sections $z = c$, $x = 0$, and $y = 0$, mak
 
 * **Cross-Section $x = 0$ ($yz$-plane):**  
 
-  $$
+$$
   y^2 = 4 \implies y = \pm 2
-  $$
+$$
 
   Two parallel vertical straight lines extending infinitely along the $z$-axis.
 
 * **Cross-Section $y = 0$ ($xz$-plane):**  
 
-  $$
+$$
   x^2 = 4 \implies x = \pm 2
-  $$
+$$
 
   Two parallel vertical straight lines extending infinitely along the $z$-axis.
 
