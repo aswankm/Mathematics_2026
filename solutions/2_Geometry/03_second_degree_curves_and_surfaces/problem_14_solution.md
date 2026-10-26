@@ -59,9 +59,9 @@ $$
 * **Cross-Sections $z = c$ (horizontal planes):**  
   Substitute $z = c$ into the equation:
 
-  $$
+$$
   x^2 + y^2 = 4
-  $$
+$$
 
   For any constant height $z = c$, the cross-section is a **circle** centered at $(0, 0, c)$ with fixed radius $R = \sqrt{4} = 2$.
 
