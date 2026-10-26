@@ -1,6 +1,6 @@
 ### Exercise 5. Relative Position of Two Lines[cite: 1]
 
-**Statement:**[  
+**Statement:**  
 Analyze the position of:
 
 $$
