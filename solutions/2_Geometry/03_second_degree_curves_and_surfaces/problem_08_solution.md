@@ -67,32 +67,32 @@ Using the center $(2, -1, 3)$ and radius $R = 4$, we can easily pick two points 
 ##### **Verification for Point $P_1 = (6, -1, 3)$:**
 - **Canonical Form:**  
   
-  $$
+$$
   (6 - 2)^2 + (-1 + 1)^2 + (3 - 3)^2 = 4^2 + 0^2 + 0^2 = 16 \quad (\text{True})
-  $$
+$$
 
 - **General Form:**  
   
-  $$
+$$
   6^2 + (-1)^2 + 3^2 - 4(6) + 2(-1) - 6(3) - 2
-  $$
+$$
 
-  $$
+$$
   = 36 + 1 + 9 - 24 - 2 - 18 - 2 = 46 - 46 = 0 \quad (\text{True})
-  $$
+$$
 
 ##### **Verification for Point $P_2 = (2, -1, 7)$:**
 - **Canonical Form:**  
-  
-  $$
+
+$$
   (2 - 2)^2 + (-1 + 1)^2 + (7 - 3)^2 = 0^2 + 0^2 + 4^2 = 16 \quad (\text{True})
-  $$
+$$
 
 - **General Form:**  
   
-  $$
+$$
   2^2 + (-1)^2 + 7^2 - 4(2) + 2(-1) - 6(7) - 2
-  $$
+$$
 
   $$
   = 4 + 1 + 49 - 8 - 2 - 42 - 2 = 54 - 54 = 0 \quad (\text{True})
